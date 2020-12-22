@@ -60,7 +60,59 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/system_ext/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptXHD_encoder.so \
     vendor/xiaomi/phoenix/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
     vendor/xiaomi/phoenix/proprietary/product/vendor_overlay/29/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libvolumelistener.so \
-    vendor/xiaomi/phoenix/proprietary/product/vendor_overlay/29/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx/libvolumelistener.so
+    vendor/xiaomi/phoenix/proprietary/product/vendor_overlay/29/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx/libvolumelistener.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libcamera2ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera2ndk.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libcamera_960_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_960_mpbase.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libcamera_arcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_arcsoft_beautyshot.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libcamera_arcsoft_handgesture.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_arcsoft_handgesture.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libcamera_beauty_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_beauty_mpbase.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libcamera_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_client.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libCameraEffectJNI.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libCameraEffectJNI.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libcamera_handgesture_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_handgesture_mpbase.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libcamera_metadata.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_metadata.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libcamera_wideselfie_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_wideselfie_mpbase.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libclone_c++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libclone_c++_shared.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libcom.xiaomi.camera.algojni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcom.xiaomi.camera.algojni.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libcom.xiaomi.camera.mianodejni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcom.xiaomi.camera.mianodejni.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libcom.xiaomi.camera.requestutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcom.xiaomi.camera.requestutil.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libfenshen_snpe.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfenshen_snpe.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libffmpeg.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libffmpeg.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libjni_jpegutil_xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_jpegutil_xiaomi.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libmimoji_avatarengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmimoji_avatarengine.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libmimoji_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmimoji_jni.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libmimoji_soundsupport.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmimoji_soundsupport.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libmimoji_tracking.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmimoji_tracking.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libmimoji_video2gif.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmimoji_video2gif.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libmulti-wakeup-engine.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmulti-wakeup-engine.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/librecord_video.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/librecord_video.so \
+    vendor/xiaomi/phoenix/proprietary/lib64/libvvc++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvvc++_shared.so \
+    vendor/xiaomi/phoenix/proprietary/lib/android.frameworks.cameraservice.common@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.frameworks.cameraservice.common@2.0.so \
+    vendor/xiaomi/phoenix/proprietary/lib/android.frameworks.cameraservice.device@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.frameworks.cameraservice.device@2.0.so \
+    vendor/xiaomi/phoenix/proprietary/lib/android.frameworks.cameraservice.service@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.frameworks.cameraservice.service@2.0.so \
+    vendor/xiaomi/phoenix/proprietary/lib/android.frameworks.cameraservice.service@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.frameworks.cameraservice.service@2.1.so \
+    vendor/xiaomi/phoenix/proprietary/lib/android.hardware.camera.common@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.common@1.0.so \
+    vendor/xiaomi/phoenix/proprietary/lib/android.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.device@1.0.so \
+    vendor/xiaomi/phoenix/proprietary/lib/android.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.device@3.2.so \
+    vendor/xiaomi/phoenix/proprietary/lib/android.hardware.camera.device@3.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.device@3.3.so \
+    vendor/xiaomi/phoenix/proprietary/lib/android.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.device@3.4.so \
+    vendor/xiaomi/phoenix/proprietary/lib/android.hardware.camera.device@3.5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.device@3.5.so \
+    vendor/xiaomi/phoenix/proprietary/lib/android.hardware.camera.device@3.6.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.device@3.6.so \
+    vendor/xiaomi/phoenix/proprietary/lib/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.provider@2.4.so \
+    vendor/xiaomi/phoenix/proprietary/lib/android.hardware.camera.provider@2.5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.provider@2.5.so \
+    vendor/xiaomi/phoenix/proprietary/lib/android.hardware.camera.provider@2.6.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.camera.provider@2.6.so \
+    vendor/xiaomi/phoenix/proprietary/lib/libcamera2ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcamera2ndk.so \
+    vendor/xiaomi/phoenix/proprietary/lib/libcamera_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcamera_client.so \
+    vendor/xiaomi/phoenix/proprietary/lib/libcamera_metadata.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcamera_metadata.so \
+    vendor/xiaomi/phoenix/proprietary/lib/libcameraservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcameraservice.so \
+    vendor/xiaomi/phoenix/proprietary/lib/libcom.xiaomi.camera.algojni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcom.xiaomi.camera.algojni.so \
+    vendor/xiaomi/phoenix/proprietary/lib/libcom.xiaomi.camera.mianodejni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcom.xiaomi.camera.mianodejni.so \
+    vendor/xiaomi/phoenix/proprietary/lib/libcom.xiaomi.camera.requestutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcom.xiaomi.camera.requestutil.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib/vendor.qti.hardware.camera.device@3.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.camera.device@3.5.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib/vendor.qti.hardware.camera.device@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.camera.device@2.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.camera.device@1.0.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib/libqvrcamera_client.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libqvrcamera_client.qti.so \
+    vendor/xiaomi/phoenix/proprietary/system_ext/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libimscamera_jni.so \
+    vendor/xiaomi/phoenix/proprietary/bin/cameraserver:$(TARGET_COPY_OUT_SYSTEM)/bin/cameraserver
 
 PRODUCT_PACKAGES += \
     libantradio \
