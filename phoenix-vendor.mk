@@ -88,7 +88,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/phoenix/proprietary/lib/libcom.xiaomi.camera.algojni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcom.xiaomi.camera.algojni.so \
     vendor/xiaomi/phoenix/proprietary/lib/libcom.xiaomi.camera.mianodejni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcom.xiaomi.camera.mianodejni.so \
     vendor/xiaomi/phoenix/proprietary/lib/libcom.xiaomi.camera.requestutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcom.xiaomi.camera.requestutil.so \
-    vendor/xiaomi/phoenix/proprietary/lib/vendor.lineage.camera.motor@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.lineage.camera.motor@1.0.so \
     vendor/xiaomi/phoenix/proprietary/system_ext/lib/vendor.qti.hardware.camera.device@3.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.camera.device@3.5.so \
     vendor/xiaomi/phoenix/proprietary/system_ext/lib/vendor.qti.hardware.camera.device@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.camera.device@2.0.so \
     vendor/xiaomi/phoenix/proprietary/system_ext/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.camera.device@1.0.so \
